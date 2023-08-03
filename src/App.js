@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Dictionary01 from './Dictionary01';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='text-center'>
+        WORD WIZARD
+      </h1>
+      <main>
+        <Dictionary01 />
+      </main>
+      <footer className='text-center'>
+        code by <a href='https://may-hlyan-moe.netlify.app/'>May Hlyan Moe</a>
+      </footer>
     </div>
   );
 }
