@@ -1,6 +1,7 @@
 import React from "react";
 import "./Synonyms04";
 import Synonyms04 from "./Synonyms04";
+import "./Dictionary01.css";
 
 export default function Meaning03 (props) {
     console.log(props.meaning);

@@ -1,4 +1,21 @@
-.Dictionary01 {
-    
-    
+.Dictionary01 section {
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 10%);
+    margin: 20px 20px;
+}
+
+.Dictionary01 input {
+    width: 100%;
+    padding: 6px 4px;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.Results02 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
 }
