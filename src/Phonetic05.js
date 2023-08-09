@@ -1,14 +1,18 @@
 import React from "react";
-import ReactAudioPlayer from 'react-audio-player';
+import "./Dictionary01.css";
+//import ReactAudioPlayer from 'react-audio-player';
 
-export default function Phonetic05 (props) {
+export default function Phonetic05(props) {
     return (
         <div className="phonetics">
             <a href={props.phonetic.audio} target="black">
                 Listen
             </a>
-            <br />
-            {props.phonetic.text}
+            
+            <span className="text">
+                {props.phonetic.text}
+            </span>
+            
         </div>
     )
 } 

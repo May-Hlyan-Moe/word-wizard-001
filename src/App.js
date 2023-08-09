@@ -8,7 +8,7 @@ function App() {
         WORD WIZARD
       </h1>
       <main>
-        <Dictionary01 defaultkeyword="sunset"/>
+        <Dictionary01 defaultkeyword="hello" />
       </main>
       <footer className='text-center'>
         code by <a href='https://may-hlyan-moe.netlify.app/'>May Hlyan Moe</a>

@@ -1,9 +1,27 @@
-.Dictionary01 section {
-    background-color: aliceblue;
-    padding: 30px;
-    border-radius: 16px;
+body {
+    background-color: #D5B4B4;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Dictionary01 input {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: #867070;
+    padding: 27px;
+    border-radius: 18px;
     box-shadow: 0px 5px 15px rgb(0 0 0 / 10%);
     margin: 20px 20px;
+    
 }
 
 .Dictionary01 input {
@@ -11,11 +29,63 @@
     padding: 6px 4px;
     color: #333;
     border: 1px solid #ddd;
+    font-size: 20px;
+    background-color: #d3b6b6;
 }
 
 .Results02 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
 
+}
+
+.Results02 h3 {
+    font-size: 32px;
+}
+
+.phonetics {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.phonetics a:hover {
+    background-color: purple;
+    color: aliceblue;
+}
+
+.Meaning h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #D5B4B4;
+}
+
+.Meaning .definition {
+    color: #efecec;
+    font-size: 24px;
+}
+
+.Meaning .example {
+    font-size: 18px;
+    opacity: 0.7;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.synonyms {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.synonyms li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.photos img {
+    border-radius: 5px;
+    margin-bottom: 20px;
 }

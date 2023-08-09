@@ -10,17 +10,10 @@ export default function Result02(props) {
         return (
             <div className="Results02">
                 <section>
-                    <h2>{props.results.word}</h2>
-                    {props.results.phonetics.map(function (phonetic, index) {
-                        return (
-                            <div key={index} >
-                                <Phonetic05 phonetic={phonetic} />
-                            </div>
-
-                        )
-                    })}
+                    <h3>{props.results.word}</h3>
+                    {props.results.phonetic}
                 </section>
-                <section>
+                
                 {props.results.meanings.map(function (meaning, index) {
                     return (
                         <div key={index}>
@@ -28,7 +21,7 @@ export default function Result02(props) {
                         </div>
                     );
                 })}
-                </section>
+                
             </div>
         );
     } else {
