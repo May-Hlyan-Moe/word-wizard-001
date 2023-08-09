@@ -1,11 +1,9 @@
 import React from "react";
 import Meaning03 from "./Meaning03";
 import "./Phonetic05";
-import Phonetic05 from "./Phonetic05";
 import "./Dictionary01.css";
 
 export default function Result02(props) {
-    console.log(props.results);
     if (props.results) {
         return (
             <div className="Results02">

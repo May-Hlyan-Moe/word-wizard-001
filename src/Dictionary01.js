@@ -13,24 +13,19 @@ export default function Dictionary01(props) {
 
     //function4
     function handleReponse(response) {
-        console.log(response.data.meanings.definition);
         setResults(response.data);
     }
 
     //function6
     function handleImageResponse(response) {
-        console.log(response.data);
         setPhotos(response.data.photos);
     }
 
     //function2
     function search() {
-        //let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-        //let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`
         let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=e8b0a10cf3eacat9055e9544c4bb244o`;
         axios.get(apiUrl).then(handleReponse);
 
-        //let imageApiKey = "JDmrUUOjmcZdUyK6hY4SBohaa3h7PCzfRtJZLrW2S6x1RJ53bP2Q5EjO";
         let pexelsApiKey =
             "JDmrUUOjmcZdUyK6hY4SBohaa3h7PCzfRtJZLrW2S6x1RJ53bP2Q5EjO";
         let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;

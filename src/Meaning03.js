@@ -4,7 +4,6 @@ import Synonyms04 from "./Synonyms04";
 import "./Dictionary01.css";
 
 export default function Meaning03(props) {
-    console.log(props.meaning);
     return (
         <div className="Meaning">
             <section>
