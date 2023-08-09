@@ -11,7 +11,7 @@ function App() {
         <Dictionary01 defaultkeyword="hello" />
       </main>
       <footer className='text-center'>
-        code by <a href='https://may-hlyan-moe.netlify.app/'>May Hlyan Moe</a>
+        coded by <a href='https://may-hlyan-moe.netlify.app/'>May Hlyan Moe</a>
       </footer>
     </div>
   );

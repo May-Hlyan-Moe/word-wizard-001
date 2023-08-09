@@ -69,7 +69,6 @@ export default function Dictionary01(props) {
                         <input type="search" onChange={handleKeywordChange} defaultValue={props.defaultkeyword} autoFocus={true} />
                     </form>
                 </section>
-
                 <Result02 results={results} />
                 <Photos06 photos={photos} />
             </div>
