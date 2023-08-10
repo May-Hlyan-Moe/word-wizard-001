@@ -1,5 +1,4 @@
 import React from "react";
-import Dictionary01 from './Dictionary01.css';
 
 export default function Photos06(props) {
     if (props.photos) {
