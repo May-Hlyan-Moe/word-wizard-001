@@ -11,7 +11,7 @@ function App() {
         <Dictionary01 defaultkeyword="hello" />
       </main>
       <footer className='text-center'>
-        coded by <a href='https://may-hlyan-moe.netlify.app/'>May Hlyan Moe</a>
+        <a href='https://github.com/May-Hlyan-Moe/word-wizard-001'>open-sourced code</a> by <a href='https://may-hlyan-moe.github.io/portfolio'>May Hlyan Moe</a>
       </footer>
     </div>
   );
